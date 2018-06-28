@@ -1,11 +1,11 @@
-# webduino-module-dht
+# webduino-bit-module-dht
 
-Webduino Module for DHT.
+Block Module for DHT11, of Webduino:bit.
 
 ## Installation
 
 ```shell
-bower install https://github.com/webduinoio/webduino-module-dht.git
+bower install https://github.com/webduinoio/webduino-bit-module-dht.git
 ```
 
 ## License
