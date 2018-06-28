@@ -1,4 +1,4 @@
-<category id="catDht">
+<category id="catDht" index="7">
   <block type="variables_set">
     <field name="VAR">dht</field>
     <value name="VALUE">
