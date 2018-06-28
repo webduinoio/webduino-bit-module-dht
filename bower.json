@@ -1,5 +1,5 @@
 {
-  "name": "webduino-module-dht",
+  "name": "webduino-bit-module-dht",
   "description": "DHT Module for Webduino",
   "main": "Dht.js",
   "authors": "",
