@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-dht",
+  "description": "DHT Module for Webduino",
+  "main": "Dht.js",
+  "authors": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "DHT"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

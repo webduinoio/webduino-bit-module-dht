@@ -1,0 +1,17 @@
+Blockly.Msg.WEBDUINO_DHT_NEW = "溫濕度傳感器，腳位";
+Blockly.Msg.WEBDUINO_DHT_GET = "偵測溫濕度，每";
+Blockly.Msg.WEBDUINO_DHT_GET_TIME = "毫秒 ( 1/1000 秒 ) 擷取一次";
+Blockly.Msg.WEBDUINO_DHT_GET_DO = "執行";
+Blockly.Msg.WEBDUINO_DHT_GET_NOW = "所測得目前的";
+Blockly.Msg.WEBDUINO_DHT_GET_T = "溫度 (攝氏)";
+Blockly.Msg.WEBDUINO_DHT_GET_H = "濕度 (%)";
+Blockly.Msg.WEBDUINO_DHT_SET = "設定";
+Blockly.Msg.WEBDUINO_DHT_TIMER = "定時啟動";
+Blockly.Msg.WEBDUINO_DHT_INTERVAL = "每隔";
+Blockly.Msg.WEBDUINO_DHT_SECOND = "秒";
+Blockly.Msg.WEBDUINO_DHT_RUN = "秒，執行";
+Blockly.Msg.WEBDUINO_DHT_INFINITY = "無限";
+Blockly.Msg.WEBDUINO_DHT_TIMES = "次";
+Blockly.Msg.WEBDUINO_DHT_FIRMWARE = "硬體設定";
+Blockly.Msg.WEBDUINO_DHT_DETECT = "偵測溫濕度";
+Blockly.Msg.WEBDUINO_DHT_FIRMWARE_COMMENT = "此積木會將動作寫入開發板，瀏覽器關閉後仍會持續運行";

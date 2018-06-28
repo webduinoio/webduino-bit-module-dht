@@ -1,0 +1,19 @@
+{
+  "name": "webduino-module-dht",
+  "version": "1.0.0",
+  "description": "DHT Module for Webduino",
+  "main": "dht.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "arduino",
+    "webduino",
+    "dht"
+  ],
+  "dependencies": {
+    "webduino-js": "0.x"
+  }
+}

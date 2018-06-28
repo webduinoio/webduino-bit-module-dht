@@ -1,0 +1,15 @@
+{
+  "types": ["dht_new","dht_get","dht_get_number","dht_read","dht_trigger"],
+  "category": "catMenu3",
+  "scripts": [
+    "blockly/blocks.js",
+    "blockly/javascript.js"
+  ],
+  "dependencies": [
+    "Dht.js",
+    "Dht-blockly.js"
+  ],
+  "msg": "blockly/msg",
+  "blocksMsg": "blockly/msg/blocks",
+  "toolbox": "blockly/toolbox.xml"
+}

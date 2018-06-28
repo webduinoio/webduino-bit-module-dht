@@ -1,0 +1,20 @@
+<category id="catDht">
+  <block type="variables_set">
+    <field name="VAR">dht</field>
+    <value name="VALUE">
+      <block type="dht_new">
+        <field name="pin_">11</field>
+      </block>
+    </value>
+  </block>
+  <block type="dht_get">
+    <value name="time">
+      <block type="math_number">
+        <field name="NUM">1000</field>
+      </block>
+    </value>
+  </block>
+  <block type="dht_get_number"></block>
+  <block type="dht_trigger"></block>
+  <block type="dht_read"></block>
+</category>
