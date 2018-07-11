@@ -1,6 +1,6 @@
 {
   "name": "webduino-bit-module-dht",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "DHT Module for Webduino",
   "main": "dht.js",
   "scripts": {
