@@ -1,7 +1,9 @@
 {
   "name": "webduino-bit-module-dht",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DHT Module for Webduino",
+  "repository": "https://github.com/webduinoio/webduino-bit-module-dht.git",
+  "homepage": "https://webduino.io",
   "main": "dht.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
