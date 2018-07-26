@@ -14,25 +14,23 @@ $ npm install webduino-bit-module-dht
 
 ## Usage
 ```javascript
-let webduino = require('webduino-js');
-require('webduino-bit-module-dht')(webduino);
 require('webduino-blockly');
+require('webduino-bit-module-dht');
 
 const opts = {
   board: 'Bit',
   device: 'device_id',
   transport: 'mqtt'
 };
-  
-let board = new webduino.board[opts.board](opts);
 
-board.once(webduino.BoardEvent.READY, (board) => {
+boardReady(opts, function (board) {
   board.samplingInterval = 250;
   const dht = getDht(board, bitGPIO(11));
   dht.read(function(evt){
     console.log(dht.temperature);
   }, 1000);
 });
+
 ```
 
 ## License
