@@ -1,6 +1,14 @@
-+(function (window, webduino) {
-  'use strict';
-  window.getDht = function(board, pin) {
-    return new webduino.module.Dht(board, board.getDigitalPin(pin));
++(function (factory) {
+  if (typeof exports === 'undefined') {
+    factory(window, window.webduino);
+  } else {
+    module.exports = factory;
   }
-}(window, window.webduino));
+}(function (scope, webduino) {
+
+  'use strict';
+
+  scope.getDht = function (board, pin) {
+    return new webduino.module.Dht(board, board.getDigitalPin(pin));
+  };
+}));
