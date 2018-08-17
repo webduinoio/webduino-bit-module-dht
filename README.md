@@ -1,6 +1,6 @@
 # webduino-bit-module-dht
 
-Block Module for DHT11, of Webduino:bit.
+Block Module for DHT11 of Webduino:bit.
 
 ## Installation
 #### bower
