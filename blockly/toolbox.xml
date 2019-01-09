@@ -1,8 +1,8 @@
-<category id="catDht" index="7">
+<category id="catDht_bit" index="7" tags="bit">
   <block type="variables_set">
     <field name="VAR">dht</field>
     <value name="VALUE">
-      <block type="dht_new">
+      <block type="dht_new_bit">
         <field name="pin_">11</field>
       </block>
     </value>

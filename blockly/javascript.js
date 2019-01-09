@@ -1,4 +1,4 @@
-Blockly.JavaScript['dht_new'] = function (block) {
+Blockly.JavaScript['dht_new_bit'] = function (block) {
   var dropdown_pin_ = block.getFieldValue('pin_');
   var code = 'getDht(board, bitGPIO(' + dropdown_pin_ + '))';
   return [code, Blockly.JavaScript.ORDER_FUNCTION_CALL];

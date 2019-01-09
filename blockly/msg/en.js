@@ -1,1 +1,1 @@
-MSG.catDht= "DHT";
+MSG.catDht_bit= "DHT";

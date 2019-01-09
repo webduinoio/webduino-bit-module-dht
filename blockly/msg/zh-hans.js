@@ -1,1 +1,1 @@
-MSG.catDht= "温湿度";
+MSG.catDht_bit= "温湿度";

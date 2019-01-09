@@ -1,4 +1,4 @@
-Blockly.Msg.WEBDUINO_DHT_NEW = "DHT , Pin:";
+Blockly.Msg.WEBDUINO_DHT_NEW_BIT = "DHT, (Bit) Pin:";
 Blockly.Msg.WEBDUINO_DHT_GET = "Detect Temperature and Humidity Every";
 Blockly.Msg.WEBDUINO_DHT_GET_TIME = "ms ( 1/1000 sec )";
 Blockly.Msg.WEBDUINO_DHT_GET_DO = "Do";

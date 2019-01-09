@@ -1,5 +1,5 @@
 {
-  "types": ["dht_new","dht_get","dht_get_number","dht_read","dht_trigger"],
+  "types": ["dht_new_bit","dht_get","dht_get_number","dht_read","dht_trigger"],
   "category": "catMenu3",
   "scripts": [
     "blockly/blocks.js",
